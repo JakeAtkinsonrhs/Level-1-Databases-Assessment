@@ -40,3 +40,4 @@ while menu_choice != 'Z':
                         'J: \n'
                         'Z: Exit Database.\n\n'
                         'Please input your chosen letter here: ')
+    menu_choice = menu_choice.upper()
