@@ -41,3 +41,23 @@ while menu_choice != 'Z':
                         'Z: Exit Database.\n\n'
                         'Please input your chosen letter here: ')
     menu_choice = menu_choice.upper()
+    if menu_choice == 'A':
+        print_query('All Information')
+    elif menu_choice == 'B':
+        print_query('All Bosses')
+    elif menu_choice == 'C':
+        print_query('All bosses, returning bosses first')
+    elif menu_choice == 'D':
+        print_query('Expeditions and weaknesses')
+    elif menu_choice == 'E':
+        print_query('all nightlords damage type and weakness')
+    elif menu_choice == 'F':
+        print_query('all returning bosses')
+    elif menu_choice == 'G':
+        print_query('')
+    elif menu_choice == 'H':
+        print_query('')
+    elif menu_choice == 'I':
+        print_query('')
+    elif menu_choice == 'J':
+        print_query('')
