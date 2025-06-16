@@ -26,6 +26,7 @@ def print_query(view_name:str):
 menu_choice = ''
 while menu_choice != 'Z':
     menu_choice = input('\nWelcome to the database of bosses from ELDEN RING: NIGHTREIGN.\n'
+                        'This is an incomplete database, and is very likely to have innacuracies.\n'
                         'This database was created for the databases assessment for NCEA Level 1 Digital Technologies.\n\n'
                         'Please enter the corresponding letter for which data you wish to access.\n'
                         'A: All Information.\n'
