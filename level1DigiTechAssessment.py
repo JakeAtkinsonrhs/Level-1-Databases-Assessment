@@ -23,3 +23,20 @@ def print_query(view_name:str):
     # Print the results in a table with the headings
     print(tabulate(results,headings))
     db.close()
+menu_choice = ''
+while menu_choice != 'Z':
+    menu_choice = input('\nWelcome to the database of bosses from ELDEN RING: NIGHTREIGN.\n'
+                        'This database was created for the databases assessment for NCEA Level 1 Digital Technologies.\n\n'
+                        'Please enter the corresponding letter for which data you wish to access.\n'
+                        'A: All Information.\n'
+                        'B: \n'
+                        'C: \n'
+                        'D: \n'
+                        'E: \n'
+                        'F: \n'
+                        'G: \n'
+                        'H: \n'
+                        'I: \n'
+                        'J: \n'
+                        'Z: Exit Database.\n\n'
+                        'Please input your chosen letter here: ')
