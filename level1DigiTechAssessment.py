@@ -36,7 +36,7 @@ while menu_choice != 'Z':
                         'E: The Damage Type And Weakness Of Every Nightlord.\n'
                         'F: All Bosses Returning From The DARK SOULS Franchise (DARK SOULS Remastered, Scholar Of The First Sin, and 3).\n'
                         'G: Bosses Weak To Fire.\n'
-                        'H: \n'
+                        'H: Bosses Weak To Lightning.\n'
                         'I: \n'
                         'J: \n'
                         'Z: Exit Database.\n\n'
@@ -57,7 +57,7 @@ while menu_choice != 'Z':
     elif menu_choice == 'G':
         print_query('fire weakness')
     elif menu_choice == 'H':
-        print_query('')
+        print_query('lightning weakness')
     elif menu_choice == 'I':
         print_query('')
     elif menu_choice == 'J':
