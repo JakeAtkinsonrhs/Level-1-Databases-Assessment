@@ -38,7 +38,7 @@ while menu_choice != 'Z':
                         'G: Bosses Weak To Fire.\n'
                         'H: Bosses Weak To Lightning.\n'
                         'I: Bosses Weak To Holy.\n'
-                        'J: \n'
+                        'J: Information About The Nameless King Bossfight.\n'
                         'Z: Exit Database.\n\n'
                         'Please input your chosen letter here: ')
     menu_choice = menu_choice.upper()
@@ -61,4 +61,4 @@ while menu_choice != 'Z':
     elif menu_choice == 'I':
         print_query('holy weakness')
     elif menu_choice == 'J':
-        print_query('')
+        print_query('nameless king')
