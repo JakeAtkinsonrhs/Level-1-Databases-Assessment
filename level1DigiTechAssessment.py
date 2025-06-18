@@ -37,7 +37,7 @@ while menu_choice != 'Z':
                         'F: All Bosses Returning From The DARK SOULS Franchise (DARK SOULS Remastered, Scholar Of The First Sin, and 3).\n'
                         'G: Bosses Weak To Fire.\n'
                         'H: Bosses Weak To Lightning.\n'
-                        'I: \n'
+                        'I: Bosses Weak To Holy.\n'
                         'J: \n'
                         'Z: Exit Database.\n\n'
                         'Please input your chosen letter here: ')
@@ -59,6 +59,6 @@ while menu_choice != 'Z':
     elif menu_choice == 'H':
         print_query('lightning weakness')
     elif menu_choice == 'I':
-        print_query('')
+        print_query('holy weakness')
     elif menu_choice == 'J':
         print_query('')
